@@ -1,0 +1,74 @@
+# -------------------Python ------------------------ 
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+*.so
+*.egg
+
+# ------------------- Virtual Environments ----------------------------------------
+venv/
+env/
+ENV/
+
+# --------------------------------- Environment Variables 
+.env
+.env.*
+!.env.example        # keep the example file
+
+# ------------------------------- Logs -----------------------------------------------
+logs/
+!logs/.gitkeep
+
+# -------------------------------------- Uploads -------------------------------------------------
+uploads/
+!uploads/.gitkeep
+
+# ─── Alembic ─────────────────────────────────────────────────────
+# Keep initial migration, ignore auto-generated ones
+# Comment this out if you want to track all migrations in git
+# migrations/versions/*.py
+# !migrations/versions/20240301_0000_initial_tables.py
+
+# ---------------------- Testing---------------------------------------------------
+.pytest_cache/
+.coverage
+htmlcov/
+coverage.xml
+*.cover
+
+# ---------------------------------- IDE----------------------------------------------------
+.vscode/
+.idea/
+*.swp
+*.swo
+*.sublime-project
+*.sublime-workspace
+
+# ----------------------- OS -----------------------------------------------------
+.DS_Store
+.DS_Store?
+._*
+Thumbs.db
+ehthumbs.db
+
+# ------------------------- Docker ---------------------------------------
+docker/postgres_data/
+docker/redis_data/
+
+# ----------------------- Firebase ----------------------------------------------------------
+firebase-credentials.json
+google-services.json
+
+
+
+#--------------------------- Misc ----------------------------------------------
+*.bak
+*.tmp
+*.swp
+.mypy_cache/
+.ruff_cache/
