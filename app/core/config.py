@@ -75,10 +75,7 @@ class Settings(BaseSettings):
     LOG_ERROR_RETENTION_DAYS: int = 90
     
     
-    #  ---------------- Firebase -----------------------------
-     
-    FIREBASE_CREDENTIALS_PATH: str
-    FIREBASE_PROJECT_ID: str
+    
     
     # ---- Security -------------------------------
     CORS_ORIGINS: List[str] = ["*"]
